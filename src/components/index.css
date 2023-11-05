@@ -1,0 +1,23 @@
+.hero-container {
+    padding: 10%;
+    margin: 0;
+}
+
+.text-section {
+    background-color: #CDB0A9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0.2% 0;
+    font-weight: 100;
+    font-size: 140%;
+    margin: auto;
+}
+
+.texto {
+    margin: 2% 20%;
+}
+
+.pagina {
+    margin: 6% 0;
+}

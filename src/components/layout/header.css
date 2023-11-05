@@ -1,0 +1,292 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #2A552C;
+}
+
+.bi-cart-fill {
+    color: #2A552C;
+}
+
+#login_btn {
+    background-color: #2A552C;
+    color: #ffffff;
+    padding: 0.2rem 1.8rem;
+    font-family: calibri;
+}
+
+#cart {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#carti {
+    color: black;
+}
+
+#cart_count {
+    background-color: #2A552C;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Avatar */
+.avatar {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 2rem;
+    width: 2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+    color: black;
+}
+
+/* Header User Profile */
+.avatar-nav {
+    color: #03b46a;
+    margin-right: 0.6rem;
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+footer {
+    background-color: #E9EEFF;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerlist {
+    color: #353945;
+    list-style: none;
+}
+
+#footerlist:hover {
+    color: #03b46a;
+    list-style: none;
+}
+
+.social-media i {
+    font-size: 1.2rem;
+    margin: 7px;
+    color: #304659;
+}
+
+.img-footer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#search_btn {
+    background-color: #689F57;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.input-group {
+    margin: auto;
+    width: 50%;
+    border-radius: 75px;
+}
+
+#search_field {
+    height: 2.4rem;
+    padding: 1rem;
+}
+
+.homesearch {
+    border-radius: 26px;
+    width: 60%;
+}
+
+.form-control {
+    background-color: #EDF2F7;
+    border-radius: 20px;
+}
+
+h1 span {
+    color: #689F57;
+}
+
+/* Loader */
+.loader {
+    margin: auto;
+    margin-top: 10%;
+    width: 200px;
+    height: 100px;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.loader::after,
+.loader::before {
+    animation: loader 2s linear infinite;
+    content: '';
+    border: 2px solid #26A86F;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader::after {
+    opacity: 0;
+    animation-delay: 1s;
+}
+
+/* Admin Sidebar */
+
+.sidebar-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    min-height: 100vh;
+    font-weight: normal;
+
+    margin-top: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+#sidebar {
+    min-width: 100%;
+    max-width: 100%;
+    background: #232f3e;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #232f3e;
+}
+
+#sidebar ul.components {
+    padding: 5px 0px;
+    border-bottom: 1px solid #232f3e;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: #26A86F;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 0.3rem;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded='true'] {
+    color: #fff;
+}
+
+a[data-toggle='collapse'] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 1rem !important;
+    padding-left: 30px !important;
+
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Avatar */
+.avatar {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 3rem;
+    width: 3rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.Nombre-nav {
+    color: #232f3e;
+    text-transform: uppercase;
+    margin: 5% 0;
+}
